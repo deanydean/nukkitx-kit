@@ -14,4 +14,5 @@ ENV NUKKITX_BUILD="latest"
 ENV NUKKITX_LANG="eng"
 
 WORKDIR "${NUKKITX_KIT_HOME}/var"
+EXPOSE 19132/udp
 ENTRYPOINT [ "/opt/nukkitx-kit/scripts/docker-entrypoint.sh" ]
