@@ -14,7 +14,7 @@ set -x
 if [ -z "${NUKKITX_URL}" ]
 then
     # There's no URL, work it out....
-    nukkitx_jenkins_url="https://ci.nukkitx.com/job/NukkitX/job/Nukkit/job/master"
+    nukkitx_jenkins_url="https://ci.opencollab.dev/job/NukkitX/job/Nukkit/job/master"
 
     # Work out the build number....
     if [ -z "${NUKKITX_BUILD}" -o "${NUKKITX_BUILD}" == "latest" ]
